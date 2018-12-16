@@ -77,7 +77,8 @@ dense2_1h_minimum_fraction_as_sparse = np.array([[0, 0, 1, 0, 0, 0],
                                                  [1, 0, 0, 1, 0, 1],
                                                  [0, 1, 0, 0, 0, 1]])
 
-# All NaN slice
+# All NaN slice.
+#xgboost修改2018
 dense3 = np.array([[0, 1, np.NaN],
                    [1, 0, np.NaN]])
 dense3_1h = np.array([[1, 0, 0, 1, 1],
